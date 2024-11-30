@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "firstName": "Artem",
+    "lastName": "Tartakovsky",
+    "aptDate": "2024-12-02 14:00",
+    "aptNotes": "I have a heart problem"
+  },
+  {
+    "id": 0,
+    "firstName": "John",
+    "lastName": "Doe",
+    "aptDate": "2024-12-03 13:00",
+    "aptNotes": "I have a headache"
+  },
+  {
+    "id": 0,
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "aptDate": "2024-12-04 14:00",
+    "aptNotes": "I need a stomach ache"
+  }
+]

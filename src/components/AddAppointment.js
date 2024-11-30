@@ -17,20 +17,20 @@ const AddAppointment = () => {
                   <Form.Label>Last name</Form.Label>
                   <Form.Control type="text" placeholder="Last name" />
                 </Form.Group>
-                <Form.Group as={Col} className="mb-3">
-                  <Form.Label>Appointment date</Form.Label>
-                  <Form.Control type="date" />
-                </Form.Group>
-                <Form.Group as={Col} className="mb-3">
-                  <Form.Label>Appointment time</Form.Label>
-                  <Form.Control type="time" />
-                </Form.Group>
-                <Form.Group as={Col} className="mb-3">
-                  <Form.Label>Additional info</Form.Label>
-                  <Form.Control type="textarea" placeholder="Some comments" />
-                </Form.Group>
-                <Button variant="primary">Submit</Button>
               </Row>
+              <Form.Group as={Col} className="mb-3">
+                <Form.Label>Appointment date</Form.Label>
+                <Form.Control type="date" />
+              </Form.Group>
+              <Form.Group as={Col} className="mb-3">
+                <Form.Label>Appointment time</Form.Label>
+                <Form.Control type="time" />
+              </Form.Group>
+              <Form.Group as={Col} className="mb-3">
+                <Form.Label>Additional info</Form.Label>
+                <Form.Control as="textarea" placeholder="Some comments" />
+              </Form.Group>
+              <Button variant="primary">Submit</Button>
             </Form>
           </Card.Body>
         </Card>
