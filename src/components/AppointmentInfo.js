@@ -3,7 +3,7 @@ import { ListGroup } from "react-bootstrap";
 const AppointmentInfo = ({ appointment }) => {
   return (
     <>
-      <ListGroup.Item key={appointment.id}>
+      <ListGroup.Item>
         <p>
           <small>Date: {appointment.aptDate}</small>
         </p>
